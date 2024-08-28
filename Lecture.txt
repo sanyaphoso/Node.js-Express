@@ -1,0 +1,28 @@
+Node.js คืออะไร ?
+Node.js คือ Open Source Server Environment คือ การทำงานที่ตัว Node.js จะสร้างสภาพแวดล้อมของ Server 
+ความเร็ว ทำได้หลายๆ req พร้อมกัน มีการจัดการได้อย่างรวดเร็ว หาข้อมูลได้ง่าย
+
+node --version
+
+nvm ใช้จัดการเรื่อง version ของ node
+
+npm init สร้าง package
+
+npm install express ติดตั้ง package หากต้องการเลือก version ให้ใส่ express@version ตรง dependencies คือส่วนแสดง version
+
+Cloud
+
+Private ใช้ส่วนตัว หรือในองกร ความปลอดภัยสูง
+Public ใช้ทำเว็ปทั่วไป
+Hybrid ปรับใช้ได้ทั้ง Private และ Public
+Multi ใช้ในกรณีที่เราให้ Cloud หลายที่ สามารถส่งงานกันได้
+
+Infrastructure as a service (laas) โครงสร้างพื้นฐานที่อยู่บน Cloud
+Platform as a service (paas) 
+Software as a service (paas) ให้บริการทุกอย่าง ส่วนใหญ่ใช้กัน
+
+การเลือกใช้ผู้ให้บริการ Cloud
+1. ลูกค้าต้องการให้บริการที่ให้ (ถ้าเป็นทที่ไทยให้เลือกใช้ที่มีในไทย เป็นต้น)
+2. ความน่าเชื่อถือ
+3. ง่ายต่อการใช้งาน
+4. support รวดเร็ว
