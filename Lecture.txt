@@ -26,3 +26,16 @@ Software as a service (paas) ให้บริการทุกอย่าง
 2. ความน่าเชื่อถือ
 3. ง่ายต่อการใช้งาน
 4. support รวดเร็ว
+
+express
+คือ framework ของ node.js ใช้งานง่าย ถ้าต้องการสร้าง web application ให้ใช้ express
+
+สร้างไฟล์ app.js ใช้สำหรับ run application
+
+node app.js เป็นการ run app
+
+npm install chalk  เครื่องมือสำหรับไฮไลท์ข้อความ
+
+npm install debug เปิด cmd เข้า path project ใช้คำสั่ง set DEBUG=* & node app.js หรือ set DEBUG=app & node app.js
+
+npm install morgan เป็น middleware จะแจ้งการ req 
