@@ -10,8 +10,7 @@ npm init สร้าง package
 
 npm install express ติดตั้ง package หากต้องการเลือก version ให้ใส่ express@version ตรง dependencies คือส่วนแสดง version
 
-Cloud
-
+## Cloud
 Private ใช้ส่วนตัว หรือในองกร ความปลอดภัยสูง
 Public ใช้ทำเว็ปทั่วไป
 Hybrid ปรับใช้ได้ทั้ง Private และ Public
@@ -27,15 +26,23 @@ Software as a service (paas) ให้บริการทุกอย่าง
 3. ง่ายต่อการใช้งาน
 4. support รวดเร็ว
 
-express
+## express
 คือ framework ของ node.js ใช้งานง่าย ถ้าต้องการสร้าง web application ให้ใช้ express
-
 สร้างไฟล์ app.js ใช้สำหรับ run application
-
 node app.js เป็นการ run app
-
 npm install chalk  เครื่องมือสำหรับไฮไลท์ข้อความ
-
 npm install debug เปิด cmd เข้า path project ใช้คำสั่ง set DEBUG=* & node app.js หรือ set DEBUG=app & node app.js
-
 npm install morgan เป็น middleware จะแจ้งการ req 
+
+
+## Git
+ci/cd 
+ 1. Continuous Integration
+ 2. Continuous Delivery
+ 3. Continuous Deployment
+
+ ## static files 
+ Static คือ โฟลเดอร์ที่ใช้เก็บไฟล์จำพวก static files ต่าง ๆ เช่น CSS, Images, JavaScript เป็นต้น
+ สร้างไฟล์ public
+
+
